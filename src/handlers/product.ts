@@ -34,7 +34,7 @@ export const createProduct = async (req, res) => {
     },
   });
 
-  req.json({ data: product });
+  res.json({ data: product });
 };
 
 export const updateProduct = async (req, res) => {
